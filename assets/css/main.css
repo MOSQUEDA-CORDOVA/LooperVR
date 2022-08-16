@@ -383,11 +383,9 @@ img {
   z-index: 2;
 }
 .demo_body_interior .banner_title h1 {
-  font-family: "Yeseva One", cursive;
   font-weight: 500;
 }
 .demo_body_interior .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   font-weight: 500;
 }
 .demo_body_interior .bg_page_dark {
@@ -4934,7 +4932,6 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   margin-right: 6px;
 }
 .banner_app_two .banner_title h1 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-size: 80px;
   font-weight: normal;
@@ -6492,7 +6489,6 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: relative;
 }
 .service_mobile_app .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-weight: normal;
 }
@@ -7706,7 +7702,6 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   features_mobileApp
 -----------------------------*/
 .features_mobileApp .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-weight: normal;
 }
@@ -9458,7 +9453,6 @@ software_web
   position: relative;
 }
 .pricing_list_app .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-weight: normal;
 }
@@ -9507,7 +9501,6 @@ software_web
 }
 .pricing_list_app .black_item .footer_content .price {
   color: #ffffff;
-  font-family: "Yeseva One", cursive;
   font-weight: normal;
   font-size: 40px;
 }
@@ -11191,7 +11184,6 @@ software_web
   margin: 0;
 }
 .customers_app .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-weight: normal;
 }
@@ -15636,7 +15628,6 @@ software_web
   margin-bottom: 50px;
 }
 .download_app_ho .title_sections h2 {
-  font-family: "Yeseva One", cursive;
   color: #ffffff;
   font-weight: normal;
 }
