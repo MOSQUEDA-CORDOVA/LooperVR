@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="37" viewBox="0 0 103 37">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.158" height="31.596" viewBox="0 0 100.158 31.596">
   <defs>
     <linearGradient id="linear-gradient" x1="0.169" y1="0.394" x2="0.904" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#ad00ad"/>
       <stop offset="1" stop-color="#0089aa"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-49 -110)">
-    <text id="L_PER" data-name="L     PER" transform="translate(49 138)" fill="#ad00ad" font-size="27" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0" xml:space="preserve">L     PER</tspan></text>
-    <text id="VR" transform="translate(141 138)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">VR</tspan></text>
+  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-50.674 -113.202)">
+    <path id="Trazado_15" data-name="Trazado 15" d="M1.674-18.954V0H12.339V-3.564H6.291v-15.39ZM47.79-10.476v-4.752H50.3c1.836,0,2.619.918,2.619,2.376s-.783,2.376-2.619,2.376Zm9.828-2.376c0-3.483-2.322-6.1-6.966-6.1H43.173V0H47.79V-6.8h2.862C55.485-6.8,57.618-9.72,57.618-12.852Zm14.013-6.1H60.021V0h11.61V-3.7H64.638V-7.857h6.183v-3.564H64.638v-3.834h6.993ZM84.645-12.8c0,1.485-.81,2.376-2.538,2.376H79.245v-4.7h2.862C83.835-15.12,84.645-14.2,84.645-12.8ZM74.628-18.954V0h4.617V-7.155h1.107L84.294,0h5.211L85.131-7.506a5.517,5.517,0,0,0,4.212-5.481c0-3.294-2.322-5.967-6.966-5.967Z" transform="translate(49 138)" fill="#ad00ad"/>
+    <path id="Trazado_16" data-name="Trazado 16" d="M2.7-.768.952-5.576H.176L2.28,0h.84l2.1-5.576H4.456Zm6.3-3.168c0,.624-.36,1.072-1.184,1.072H6.752V-4.976H7.824C8.656-4.976,9.008-4.568,9.008-3.936ZM6.024-5.576V0h.728V-2.28h.88L8.96,0h.872l-1.4-2.336a1.572,1.572,0,0,0,1.328-1.6c0-.912-.624-1.64-1.936-1.64Z" transform="translate(141 138)" fill="#fff"/>
     <g id="Grupo_2" data-name="Grupo 2" transform="translate(61.214 113.202)">
       <path id="Trazado_4" data-name="Trazado 4" d="M12.591,0A12.713,12.713,0,0,1,25.181,12.833c0,7.087-5.637,18.763-12.591,18.763S0,19.92,0,12.833A12.713,12.713,0,0,1,12.591,0Z" transform="translate(2.421)" fill="none"/>
       <path id="Trazado_4_-_Contorno" data-name="Trazado 4 - Contorno" d="M12.591.484a11.827,11.827,0,0,0-4.709.969A12.056,12.056,0,0,0,4.033,4.1a12.324,12.324,0,0,0-2.6,3.925,12.483,12.483,0,0,0-.952,4.809A25.072,25.072,0,0,0,4.1,24.623a17.509,17.509,0,0,0,3.889,4.659,7.38,7.38,0,0,0,4.6,1.829,7.38,7.38,0,0,0,4.6-1.829,17.509,17.509,0,0,0,3.889-4.659A25.072,25.072,0,0,0,24.7,12.833a12.483,12.483,0,0,0-.952-4.809,12.324,12.324,0,0,0-2.6-3.925A12.056,12.056,0,0,0,17.3,1.453,11.827,11.827,0,0,0,12.591.484m0-.484A12.713,12.713,0,0,1,25.181,12.833c0,7.087-5.637,18.763-12.591,18.763S0,19.92,0,12.833A12.713,12.713,0,0,1,12.591,0Z" transform="translate(2.421)" fill="#ad00ad"/>
