@@ -1,12 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.826" height="37.533" viewBox="0 0 27.826 37.533">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="37" viewBox="0 0 103 37">
   <defs>
-    <linearGradient id="linear-gradient" x1="-0.753" y1="0.18" x2="0.694" y2="0.659" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e14138"/>
-      <stop offset="1" stop-color="#efb511"/>
+    <linearGradient id="linear-gradient" x1="0.169" y1="0.394" x2="0.904" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ad00ad"/>
+      <stop offset="1" stop-color="#0089aa"/>
     </linearGradient>
   </defs>
-  <g id="Group_118" data-name="Group 118" transform="translate(-257.33 -185)">
-    <path id="Path_249" data-name="Path 249" d="M257.33,220.93V194.236c0-8.239,11.268-10.6,14.579-3.058l12.532,28.557a2.976,2.976,0,0,1-2.725,4.172h-21.41A2.976,2.976,0,0,1,257.33,220.93Z" transform="translate(0 -1.373)" fill="url(#linear-gradient)"/>
-    <path id="Path_250" data-name="Path 250" d="M257.33,187.976v31.575a2.976,2.976,0,0,0,5.026,2.157L281,203.983A10.59,10.59,0,0,0,274.545,185H260.306A2.976,2.976,0,0,0,257.33,187.976Z" fill="#1456ed" style="mix-blend-mode: hard-light;isolation: isolate"/>
+  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-49 -110)">
+    <text id="L_PER" data-name="L     PER" transform="translate(49 138)" fill="#ad00ad" font-size="27" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0" xml:space="preserve">L     PER</tspan></text>
+    <text id="VR" transform="translate(141 138)" fill="#fff" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">VR</tspan></text>
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(61.214 113.202)">
+      <path id="Trazado_4" data-name="Trazado 4" d="M12.591,0A12.713,12.713,0,0,1,25.181,12.833c0,7.087-5.637,18.763-12.591,18.763S0,19.92,0,12.833A12.713,12.713,0,0,1,12.591,0Z" transform="translate(2.421)" fill="none"/>
+      <path id="Trazado_4_-_Contorno" data-name="Trazado 4 - Contorno" d="M12.591.484a11.827,11.827,0,0,0-4.709.969A12.056,12.056,0,0,0,4.033,4.1a12.324,12.324,0,0,0-2.6,3.925,12.483,12.483,0,0,0-.952,4.809A25.072,25.072,0,0,0,4.1,24.623a17.509,17.509,0,0,0,3.889,4.659,7.38,7.38,0,0,0,4.6,1.829,7.38,7.38,0,0,0,4.6-1.829,17.509,17.509,0,0,0,3.889-4.659A25.072,25.072,0,0,0,24.7,12.833a12.483,12.483,0,0,0-.952-4.809,12.324,12.324,0,0,0-2.6-3.925A12.056,12.056,0,0,0,17.3,1.453,11.827,11.827,0,0,0,12.591.484m0-.484A12.713,12.713,0,0,1,25.181,12.833c0,7.087-5.637,18.763-12.591,18.763S0,19.92,0,12.833A12.713,12.713,0,0,1,12.591,0Z" transform="translate(2.421)" fill="#ad00ad"/>
+      <g id="Infinity" transform="translate(0 8.232)">
+        <path id="Trazado_3" data-name="Trazado 3" d="M22.456,16.04a7.461,7.461,0,0,0-5.72,2.612l-1.108,1.276L18.1,22.783,19.559,21.1a3.785,3.785,0,0,1,2.9-1.322,3.72,3.72,0,1,1,0,7.44A3.769,3.769,0,0,1,19.569,25.9c-5.414-6.252-2.842-3.271-6.281-7.253a7.461,7.461,0,1,0,0,9.7L14.4,27.068l-2.472-2.855L10.465,25.9a3.785,3.785,0,0,1-2.9,1.322,3.72,3.72,0,1,1,0-7.44A3.769,3.769,0,0,1,10.456,21.1c5.414,6.252,2.842,3.271,6.281,7.253a7.492,7.492,0,1,0,5.72-12.309Z" transform="translate(-0.11 -16.04)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
   </g>
 </svg>
