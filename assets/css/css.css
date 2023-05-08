@@ -5,7 +5,7 @@
     }
     .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
         position: absolute;
-        top: 50px;
+        top: 100px;
         left: 0;
         width: 100%;
     }
@@ -15,31 +15,52 @@
     }
 }
 
-@media (min-width:1250px) {
-    .pt_banner_inner.banner_app_two .banner_title {
-        min-height: 460px;
-    }
+@media (min-width:1050px) {
     .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
-        top: 80px;
+        top: 130px;
     }
     .pt_banner_inner.banner_app_two .button_app {
-        top: auto;
-        bottom: 0;
+        top: 400px;
     }
 }
-@media (min-width:1400px) {
-    .pt_banner_inner.banner_app_two .banner_title {
-        margin-top: 50px;
+
+@media (min-width:1200px) {
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        top: 170px;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: 450px;
     }
 }
-@media (min-width:1650px) {
-    .pt_banner_inner.banner_app_two .banner_title {
-        margin-top: 100px;
+
+@media (min-width:1300px) {
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        top: 200px;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: 500px;
     }
 }
-@media (min-width:2000px) {
-    .pt_banner_inner.banner_app_two .banner_title {
-        min-height: 550px;
-        margin-top: 150px;
+
+@media (min-width:1440px) {
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        top: 250px;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: 550px;
+    }
+}
+
+@media (min-width:1600px) {
+    .banner_app_two {
+        min-height: 1000px;
+    }
+}
+@media (min-width:1640px) {
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        top: 300px;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: 600px;
     }
 }
