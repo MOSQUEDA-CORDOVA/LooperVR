@@ -1,0 +1,45 @@
+@media (min-width:992px) {
+    .pt_banner_inner.banner_app_two .banner_title {
+        position: relative;
+        min-height: 400px;
+    }
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: auto;
+        bottom: 0;
+    }
+}
+
+@media (min-width:1250px) {
+    .pt_banner_inner.banner_app_two .banner_title {
+        min-height: 460px;
+    }
+    .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
+        top: 80px;
+    }
+    .pt_banner_inner.banner_app_two .button_app {
+        top: auto;
+        bottom: 0;
+    }
+}
+@media (min-width:1400px) {
+    .pt_banner_inner.banner_app_two .banner_title {
+        margin-top: 50px;
+    }
+}
+@media (min-width:1650px) {
+    .pt_banner_inner.banner_app_two .banner_title {
+        margin-top: 100px;
+    }
+}
+@media (min-width:2000px) {
+    .pt_banner_inner.banner_app_two .banner_title {
+        min-height: 550px;
+        margin-top: 150px;
+    }
+}
