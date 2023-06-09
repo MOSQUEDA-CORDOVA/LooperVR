@@ -36,6 +36,7 @@
 @media (min-width:1300px) {
     .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
         top: 200px;
+        font-size: 6vw !important;
     }
     .pt_banner_inner.banner_app_two .button_app {
         top: 500px;
@@ -45,6 +46,7 @@
 @media (min-width:1440px) {
     .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
         top: 250px;
+        font-size: 6vw !important;
     }
     .pt_banner_inner.banner_app_two .button_app {
         top: 550px;
