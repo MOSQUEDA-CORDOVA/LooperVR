@@ -4883,19 +4883,19 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .banner_app_two {
   position: relative;
-  background: url("../img/V2_BG.png");
+  background: url("../img/bn hd ultra wide.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-position: 0px -18vw;
+  background-position: center;
 }
 @media (max-width: 767px) {
   .banner_app_two {
-    background-size: cover;
-    background-position: -50vw 0vw;
+    background-size: auto 800px;
+    background-position: top;
   }
   .pt_banner_inner {
-    padding-top: 88vh;
+    padding-top: 0;
   }
 }
 .banner_app_two::before {
