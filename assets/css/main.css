@@ -4881,13 +4881,16 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 /*-----------------------------
   banner_app_two
 -----------------------------*/
+.container{
+  max-width: none !important; /*/Isaac MC/*/
+}
 .banner_app_two {
   position: relative;
   background: url("../img/bn hd ultra wide.png");
-  background-size: cover;
+  background-size: auto 100%;;
   background-repeat: no-repeat;
   width: 100%;
-  background-position: center;
+  background-position: top;
 }
 @media (max-width: 767px) {
   .banner_app_two {
