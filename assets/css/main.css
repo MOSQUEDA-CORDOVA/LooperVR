@@ -4894,12 +4894,18 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 @media (max-width: 767px) {
   .banner_app_two {
-    background-size: auto 800px;
+    min-height: 100vh !important;
+    height: 100vh !important;
+  }
+  .banner_app_two {
+    background-size: contain !important;
     background-position: top;
+    background: url("../img/bg vertical 4k.jpeg");
   }
   .pt_banner_inner {
     padding-top: 0;
   }
+  .banner_title{padding-top: 70vh;}
 }
 .banner_app_two::before {
   content: "";
