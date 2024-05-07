@@ -1203,8 +1203,13 @@ img {
   .padding-t-7 {
     padding-top: 2.5rem !important;
   }
+  .bg-black {
+    background-color: #1d1d1d !important;
+  }
 }
-
+.bg-black {
+  background-color: #000;
+}
 .padding-t-8 {
   padding-top: 5rem !important;
 }
@@ -1708,9 +1713,7 @@ img {
   background-color: #7bd88a !important;
 }
 
-.bg-black {
-  background-color: #000 !important;
-}
+
 
 .bg-snow {
   background-color: #f7f8fa !important;
@@ -4977,7 +4980,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   }
   .banner_app_two {
     background-size: 100% auto !important;
-    background-position: top;
+    background-position: 0 -100px !important;
     background: url("../img/bg vertical 4k.jpeg");
     background-repeat: no-repeat;
   }
