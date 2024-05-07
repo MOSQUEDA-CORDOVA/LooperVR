@@ -4979,6 +4979,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     background-size: contain !important;
     background-position: top;
     background: url("../img/bg vertical 4k.jpeg");
+    background-repeat: no-repeat;
   }
   .pt_banner_inner {
     padding-top: 0;
