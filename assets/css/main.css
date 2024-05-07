@@ -4892,21 +4892,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   width: 100%;
   background-position: top;
 }
-@media (max-width: 767px) {
-  .banner_app_two {
-    min-height: 100vh !important;
-    height: 100vh !important;
-  }
-  .banner_app_two {
-    background-size: contain !important;
-    background-position: top;
-    background: url("../img/bg vertical 4k.jpeg");
-  }
-  .pt_banner_inner {
-    padding-top: 0;
-  }
-  .banner_title{padding-top: 70vh;}
-}
+
 .banner_app_two::before {
   content: "";
   position: absolute;
@@ -4920,11 +4906,15 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 .banner_app_two .app_banner img {
   width: 90%;
 }
-@media (max-width: 767px) {
-  .banner_app_two .app_banner {
-    display: none;
-  }
+
+.banner_app_two {
+  font-size: 8vw;
 }
+.banner_app_two .espacio_letra{
+  margin-right: 4vw;
+}
+.banner_title{padding-top: 50vh;}
+
 .banner_app_two .banner_title .offer {
   color: #ffffff;
   font-size: 14px;
@@ -4940,16 +4930,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   font-size: 80px;
   font-weight: normal;
 }
-@media (max-width: 991px) {
-  .banner_app_two .banner_title h1 {
-    font-size: 70px;
-  }
-}
-@media (max-width: 767px) {
-  .banner_app_two .banner_title h1 {
-    font-size: 50px;
-  }
-}
+
 .banner_app_two .banner_title p {
   color: #ffffff;
 }
@@ -4988,6 +4969,46 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   display: inline-block;
   vertical-align: middle;
 }
+
+@media (max-width: 767px) {
+  .banner_app_two {
+    min-height: 100vh !important;
+    height: 100vh !important;
+  }
+  .banner_app_two {
+    background-size: contain !important;
+    background-position: top;
+    background: url("../img/bg vertical 4k.jpeg");
+  }
+  .pt_banner_inner {
+    padding-top: 0;
+  }
+  .banner_title{padding-top: 70vh !important;}
+
+  .banner_app_two {
+    font-size: 8vw !important;
+  }
+  .banner_app_two .espacio_letra{
+    margin-right: 6vw !important;
+  }
+  .banner_app_two .banner_title h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner_app_two .banner_title h1 {
+    font-size: 7vw;
+  }
+}
+@media (min-width: 3800px) {
+  .banner_app_two .banner_title h1 {
+    font-size: 3vw;
+  }
+}
+
+
+
 
 /*-----------------------------
   banner_personal
