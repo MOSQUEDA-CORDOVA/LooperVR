@@ -42,6 +42,13 @@
       .banner_app_two {
         height: 65vh;
       }
+      .diamond-open-beta {
+  width: 10px; /* Ancho del rombo */
+  height: 10px; /* Alto del rombo */
+  background-color: #DF0FDC; /* Color del rombo */
+  transform: rotate(45deg); /* Rotar el cuadrado para formar un rombo */
+  position: relative; /* Posición relativa para poder centrar */
+}
     </style>
 </head>
 
@@ -82,19 +89,22 @@
           <div 
             class="text-center d-flex mb-2 align-items-center"
             style="color:#DF0FDC;">
-            <div
+
+            <div class="diamond-open-beta" 
               style="
               margin-right: -5px;
-              transform: rotate(-90deg);">♦</div>
+              ">
+            </div>
             <div
               style="width: 200px;
               height: 2px;
               background: #DF0FDC;">
             </div>
-            <div
-              style="
-              margin-left: -5px;
-              transform: rotate(-90deg);">♦</div>
+            <div class="diamond-open-beta" 
+                style="
+                margin-left: -5px;
+                ">
+            </div>
           </div>
           <div style="display: flex;
           gap: 20px;
