@@ -53,11 +53,6 @@
     }
 }
 
-@media (min-width:1600px) {
-    .banner_app_two {
-        min-height: 1000px;
-    }
-}
 @media (min-width:1640px) {
     .pt_banner_inner.banner_app_two .mainTitle, .pt_banner_inner.banner_app_two .button_app {
         top: 300px;

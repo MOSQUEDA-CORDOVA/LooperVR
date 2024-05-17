@@ -4973,7 +4973,10 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   vertical-align: middle;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
+  .open-beta-mobile{
+    margin-top: -350px;
+  }
   .banner_app_two {
     min-height: 100vh !important;
     height: 100vh !important;
@@ -4981,7 +4984,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   .banner_app_two {
     background-size: 100% auto !important;
     background-position: 0 -100px !important;
-    background: url("../img/bg vertical 4k.jpeg");
+    background: url("../img/bg vertical 4k.jpg");
     background-repeat: no-repeat;
   }
   .pt_banner_inner {
