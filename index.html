@@ -49,6 +49,13 @@
   transform: rotate(45deg); /* Rotar el cuadrado para formar un rombo */
   position: relative; /* Posición relativa para poder centrar */
 }
+.open-beta-mobile div{
+  align-items: flex-start; /* Esto evita que las imágenes se estiren */
+}
+.open-beta-mobile img{
+  height: 40px;
+  max-width: 100%; /* Esto asegura que las imágenes no se estiren más allá de su tamaño original */
+}
     </style>
 </head>
 
@@ -68,12 +75,12 @@
           
           ">
 
-          <div style="display: flex;
+          <div style="
           gap: 20px;
-          " class="flex-md-row flex-column">
-            <img src="assets/img/Group 15.png" alt="" width="160px">
-            <img src="assets/img/Group 14.png" alt="" width="160px">
-            <img src="assets/img/Group 13.png" alt="" width="160px">
+          " class="flex-md-row d-flex flex-column">
+            <img src="assets/img/Group 15.png" >
+            <img src="assets/img/Just Group 17.png" >
+            <img src="assets/img/Group 13.png" >
           </div>
         </section>
         <!-- End. Banner -->
