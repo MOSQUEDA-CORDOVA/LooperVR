@@ -1,0 +1,35 @@
+@media (orientation:landscape) {
+    .banner_app_two{
+        height: 90vh !important;
+    }
+    .open-beta-mobile{
+        position: relative;
+        height: 10vh;
+        padding: 0 !important;
+        margin: 0 !important;
+    }  
+}
+
+@media (min-width:992px) {
+     
+}
+
+@media (min-width:1050px) {
+    
+}
+
+@media (min-width:1200px) {
+    
+}
+
+@media (min-width:1300px) {
+    
+}
+
+@media (min-width:1440px) {
+    
+}
+
+@media (min-width:1640px) {
+    
+}

@@ -4975,7 +4975,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 
 @media (max-width: 500px) {
   .open-beta-mobile{
-    margin-top: -350px;
+    margin-top: -280px;
   }
   .banner_app_two {
     min-height: 100vh !important;
