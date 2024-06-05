@@ -48,6 +48,9 @@ main{
         /*height: 100% !important;*/
         display: none !important;
     }
+    .display-portrait-none{
+        display: none;
+    }
 }
 @media (orientation:landscape) {
     .menu-principal{
