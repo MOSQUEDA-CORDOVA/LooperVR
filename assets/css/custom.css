@@ -63,7 +63,7 @@ main{
         max-width: 1080px;
         justify-content: center;
         padding: 0 16px;
-        
+        gap: 32px;
     }
     .links-menu-prinicpal{
         gap: 64px;
@@ -71,6 +71,7 @@ main{
         padding: 16px 4px;
         font-size: 1rem;
         flex-grow: 1;
+        border-left: 1px solid #666;
     }
 
     .banner_app_two{
