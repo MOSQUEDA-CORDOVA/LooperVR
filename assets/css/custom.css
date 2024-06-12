@@ -5,6 +5,22 @@ main{
 }
 
 @media (orientation:portrait) {
+    .iconos-apps{
+        z-index: 1;
+        position: absolute;
+        bottom: 32px;
+    }
+    .iconos-apps img{
+        height: 48px;
+    }
+    .banner_app_two{
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner_app_two .logo-looper-test{
+        height: 4em;
+        z-index: 1;
+    }
     .menu-principal{
         height: 100vh;
         position: fixed;
@@ -12,7 +28,7 @@ main{
         display: flex;
         flex-direction: column;
         position: fixed;
-        z-index: 1;
+        z-index: 100;
         width: 100%;   
     }
     .menu-principal .toggle-label{
@@ -41,18 +57,16 @@ main{
         transition: margin-left 0.5s ease;
         max-width: 100%;
     }
-    .logo-looper-test{
-        display: none !important;
-    }
-    .w-portrait-100{
-        /*height: 100% !important;*/
-        display: none !important;
-    }
+
+
     .display-portrait-none{
-        display: none;
+        display: none !important;
     }
 }
 @media (orientation:landscape) {
+    .display-landscape-none{
+        display: none !important;
+    }
     .menu-principal{
         border-bottom: 1px solid #333;
         justify-content: center;

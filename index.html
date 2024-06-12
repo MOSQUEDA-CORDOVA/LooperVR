@@ -17,27 +17,27 @@
   <title>LooperVR | El nuevo mundo</title>
   <!-- favicon -->
   <link rel="shortcut icon" href="assets/img/FavIcon.png">  <!-- Bootstrap 4.5 -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=17" type="text/css" />
   <!-- animate -->
-  <link rel="stylesheet" href="assets/css/animate.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="assets/css/animate.css?v=17" type="text/css" />
   <!-- Swiper -->
-  <link rel="stylesheet" href="assets/css/swiper.min.css?v=16" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css?v=17" />
   <!-- icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css?v=16" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assets/css/icons.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css?v=17" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/icons.css?v=17" type="text/css" />
   <!-- aos -->
-  <link rel="stylesheet" href="assets/css/aos.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="assets/css/aos.css?v=17" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="assets/css/main.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=17" type="text/css" />
   <!-- normalize -->
-  <link rel="stylesheet" href="assets/css/normalize.css?v=16" type="text/css" />
-  <link rel="stylesheet" href="assets/css/css.css?v=16" type="text/css" />
-  <link rel="stylesheet" href="assets/css/custom.css?v=16" type="text/css" />
+  <link rel="stylesheet" href="assets/css/normalize.css?v=17" type="text/css" />
+  <link rel="stylesheet" href="assets/css/css.css?v=17" type="text/css" />
+  <link rel="stylesheet" href="assets/css/custom.css?v=17" type="text/css" />
 
   <!-- js for Brwoser -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js?v=16"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?v=16"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js?v=17"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?v=17"></script>
     <![endif]-->
     <style>
       .banner_app_two {
@@ -111,16 +111,30 @@
             </div>
         </nav>
         <!-- Start Banner -->
-        <section class="banner_app_two d-flex align-items-md-center" id="Nosotros"
-        style="overflow: hidden;
-        justify-content: center;">
-        <img src="assets/img/logo+symbol.png" class="logo-looper-test d-none d-md-block">
-          <video autoplay muted loop id="background-video" class="w-landscape-100 w-portrait-100">
+        <section 
+          class="banner_app_two d-flex align-items-md-center" id="Nosotros"
+          style="overflow: hidden;
+          justify-content: center;">
+          <img src="assets/img/logo+symbol.png" class="logo-looper-test d-md-block">
+          <video autoplay muted loop id="background-video" class="w-landscape-100 display-portrait-none">
               <source src="video-mas-resolucion.mp4" type="video/mp4">
               Tu navegador no soporta la etiqueta de video.
           </video>
+          <video autoplay muted loop id="background-video" class=" display-landscape-none">
+              <source src="Mobile video.webm" type="video/webm">
+              Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div style="
+          gap: 20px;
+          " class="flex-md-row d-flex flex-column iconos-apps display-landscape-none">
+            <img src="assets/img/Group 16.png" >
+            <img src="assets/img/Just Group 17.png" >
+            <a href="https://www.oculus.com/experiences/app/4741537652598537/?utm_source=oculus&utm_medium=share" target="_blank">
+              <img src="assets/img/Group 13.png" >
+            </a>
+          </div>
         </section>
-        <section class="d-flex justify-content-center align-items-center open-beta-mobile" 
+        <section class="d-flex justify-content-center align-items-center open-beta-mobile display-portrait-none" 
           style="position: relative;
           
           ">
@@ -136,35 +150,35 @@
           </div>
         </section>
 
-        <section class="display-portrait-none" id="aboutUs">
+        <section class="" id="aboutUs">
           <img src="assets/img/looper s1.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <a href="#" target="_blank">
             <img src="assets/img/looper s2.jpg" class="w-100" >
           </a>
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s3.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s4.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <a href="#" target="_blank">
             <img src="assets/img/looper s5.jpg" class="w-100" >
           </a>
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s6.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s7.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s8.jpg" class="w-100" >
         </section>
-        <section class="display-portrait-none">
+        <section class="">
           <img src="assets/img/looper s9.jpg" class="w-100" >
         </section>
 
@@ -189,52 +203,52 @@
   <!-- End. wrapper -->
 
   <!-- jquery -->
-  <script src="assets/js/jquery-3.5.0.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/jquery-3.5.0.js?v=17" type="text/javascript"></script>
   <!-- jquery-migrate -->
-  <script src="assets/js/jquery-migrate.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/jquery-migrate.min.js?v=17" type="text/javascript"></script>
   <!-- popper -->
-  <script src="assets/js/popper.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/popper.min.js?v=17" type="text/javascript"></script>
   <!-- bootstrap -->
-  <script src="assets/js/bootstrap.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js?v=17" type="text/javascript"></script>
   <!--
   ============
   vendor file
   ============
    -->
   <!-- particles -->
-  <script src="assets/js/vendor/particles.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/particles.min.js?v=17" type="text/javascript"></script>
   <!-- TweenMax -->
-  <script src="assets/js/vendor/TweenMax.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/TweenMax.min.js?v=17" type="text/javascript"></script>
   <!-- ScrollMagic -->
-  <script src="assets/js/vendor/ScrollMagic.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/ScrollMagic.js?v=17" type="text/javascript"></script>
   <!-- animation.gsap -->
-  <script src="assets/js/vendor/animation.gsap.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/animation.gsap.js?v=17" type="text/javascript"></script>
   <!-- addIndicators -->
-  <script src="assets/js/vendor/debug.addIndicators.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/debug.addIndicators.min.js?v=17" type="text/javascript"></script>
   <!-- Swiper js -->
-  <script src="assets/js/vendor/swiper.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/swiper.min.js?v=17" type="text/javascript"></script>
   <!-- countdown -->
-  <script src="assets/js/vendor/countdown.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/countdown.js?v=17" type="text/javascript"></script>
   <!-- simpleParallax -->
-  <script src="assets/js/vendor/simpleParallax.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/simpleParallax.min.js?v=17" type="text/javascript"></script>
   <!-- waypoints -->
-  <script src="assets/js/vendor/waypoints.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/waypoints.min.js?v=17" type="text/javascript"></script>
   <!-- counterup -->
-  <script src="assets/js/vendor/jquery.counterup.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/jquery.counterup.min.js?v=17" type="text/javascript"></script>
   <!-- charming -->
-  <script src="assets/js/vendor/charming.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/charming.min.js?v=17" type="text/javascript"></script>
   <!-- imagesloaded -->
-  <script src="assets/js/vendor/imagesloaded.pkgd.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/imagesloaded.pkgd.min.js?v=17" type="text/javascript"></script>
   <!-- BX-Slider -->
-  <script src="assets/js/vendor/jquery.bxslider.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/jquery.bxslider.min.js?v=17" type="text/javascript"></script>
   <!-- Sharer -->
-  <script src="assets/js/vendor/sharer.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/sharer.js?v=17" type="text/javascript"></script>
   <!-- sticky -->
-  <script src="assets/js/vendor/sticky.min.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/sticky.min.js?v=17" type="text/javascript"></script>
   <!-- Aos -->
-  <script src="assets/js/vendor/aos.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/vendor/aos.js?v=17" type="text/javascript"></script>
   <!-- main file -->
-  <script src="assets/js/main.js?v=16" type="text/javascript"></script>
+  <script src="assets/js/main.js?v=17" type="text/javascript"></script>
 
 </body>
 
