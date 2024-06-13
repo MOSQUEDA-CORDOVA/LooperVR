@@ -22,7 +22,6 @@ main{
         z-index: 1;
     }
     .menu-principal{
-        height: 100vh;
         position: fixed;
         top: 0;
         display: flex;
@@ -32,7 +31,6 @@ main{
         width: 100%;   
     }
     .menu-principal .toggle-label{
-        
         border-bottom: 1px solid #333;
         width: 100%;
         padding: 16px 32px;
@@ -41,6 +39,7 @@ main{
     }
     .sidebar-toggle:checked + .links-menu-prinicpal  {
         margin-left: 0;
+        height: 100vh;
     }
     .elemntos-menu{
         flex-grow: 1;
